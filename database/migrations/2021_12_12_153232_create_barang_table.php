@@ -18,7 +18,7 @@ class CreateBarangTable extends Migration
             $table->string('namabarang');
             $table->string('sku');
             $table->string('harga');
-            $table->integer('id_kategori');
+            $table->integer('kategori_id');
             $table->timestamps();
         });
     }
